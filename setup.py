@@ -19,7 +19,7 @@ required = ['numpy', 'bitarray', 'future', 'six']
 
 setup(
     name='lshashpy3',
-    version=1
+    version=1,
     packages=['lshashpy3'],
     author='Kay Zhu',
     author_email='me@kayzhu.com',
