@@ -30,7 +30,7 @@ setup(
     long_description=readme + '\n\n' + changes,
     long_description_content_type='text/x-rst',
     license='MIT License',
-    requires=required,
+    install_requires=required,
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
