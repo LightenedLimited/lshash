@@ -4,16 +4,16 @@
 # This module is part of lshash and is released under
 # the MIT License: http://www.opensource.org/licenses/mit-license.php
 # -*- coding: utf-8 -*-
-# from __future__ import print_function, unicode_literals, division, absolute_import
+from __future__ import print_function, unicode_literals, division, absolute_import
 from builtins import int, round, str,  object  # noqa
-# from future import standard_library
-# standard_library.install_aliases()  # noqa: Counter, OrderedDict, 
+from future import standard_library
+standard_library.install_aliases()  # noqa: Counter, OrderedDict, 
 from past.builtins import basestring   # noqa:
  
-# import future        # noqa
+import future        # noqa
 import builtins      # noqa
 import past          # noqa
-# import six           # noqa
+import six           # noqa
  
 import os
 import json
