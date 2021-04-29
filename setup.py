@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import lshashpy3
+# import lshashpy3
 
 try:
     from setuptools import setup
@@ -19,7 +19,7 @@ required = ['numpy', 'bitarray', 'future', 'six']
 
 setup(
     name='lshashpy3',
-    version=lshashpy3.__version__,
+    version=1
     packages=['lshashpy3'],
     author='Kay Zhu',
     author_email='me@kayzhu.com',
